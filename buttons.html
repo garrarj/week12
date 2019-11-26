@@ -11,16 +11,29 @@
     <link href="css/styles.min.css" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <a href="index.html">home</a>
-        <a href="typography.html">typography</a>
-        <a href="spacing.html">spacing</a>
-        <a href="buttons.html">buttons</a>
-    </nav>
+    <header class="container-fluid mb-5">
+        <ul class="nav nav-pills nav-justified bg-light">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="typography.html">typography</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="spacing.html">spacing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="buttons.html">buttons</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="nav.html">nav</a>
+            </li>
+        </ul>
+    </header>
 
     <main class="container">
 
-        <!-- Buttons -->
+ <!-- Buttons -->
         <!--
             colours:
             - primary (blue)
@@ -47,6 +60,51 @@
 
         <hr/>
 
+        <p class="display-4">Button Sizes</p>
+
+        <button class="btn btn-sm btn-info">small button</button>
+        <button class="btn btn-lg btn-warning">large button</button>
+        <button class="btn btn-success btn-block my-2">A block button will take up the full width of its parent</button>
+
+        <span class="row">
+            <div class="col-8">
+                <button class="btn btn-primary btn-block my-2">block button</button>
+            </div>
+            <div class="col-4">
+                <button class="btn btn-danger btn-block my-2">block button</button>
+            </div>
+        </span>
+
+        <hr/>
+
+        <p class="display-4">Button outline colours</p>
+        <button class="btn btn-outline-primary">blue</button>
+        <button class="btn btn-outline-secondary">grey</button>
+        <button class="btn btn-outline-success">green</button>
+        <button class="btn btn-outline-danger">red</button>
+        <button class="btn btn-outline-warning">yellow</button>
+        <button class="btn btn-outline-info">teal</button>
+        <button class="btn btn-outline-light text-secondary">light grey</button>
+        <button class="btn btn-outline-dark">dark grey</button>
+
+        <hr/>
+
+        <p class="display-4">Button tags</p>
+        <a class="btn btn-primary" href="#" role="button">Link</a>
+        <button class="btn btn-primary" type="submit">Button</button>
+        <input class="btn btn-primary" type="button" value="Input">
+        <input class="btn btn-primary" type="submit" value="Submit">
+        <input class="btn btn-primary" type="reset" value="Reset">
+
+        <hr/>
+
+        <p class="display-4">Button Groups</p>
+        <div class="btn-group" role="group">
+            <button class="btn btn-secondary">First</button>
+            <button class="btn btn-secondary">Second</button>
+            <button class="btn btn-secondary">Third</button>
+            <button class="btn btn-secondary">Fourth</button>
+        </div>
 
     </main>
     

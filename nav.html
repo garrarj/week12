@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MAD9013 - Week12</title>
+    <!-- We are linking to the Bootstrap4 css library via CDN (content delivery network) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Make sure to link your own stylesheets AFTER the Bootstrap CDN link -->
+    <link href="css/styles.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="container-fluid mb-5">
+        <ul class="nav nav-pills nav-justified bg-light">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="typography.html">typography</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="spacing.html">spacing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="buttons.html">buttons</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="nav.html">nav</a>
+            </li>
+        </ul>
+    </header>
+
+    <main class="container">
+        
+        <div class="jumbotron">
+            <p class="display-2">Jumbotron</p>
+            <p>Jumbotrons are simple large-format containers that can be used to hold header content, or attract the user's eye</p>
+        </div>
+
+        <p class="display-3 mt-5">Tabbed Nav</p>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">one</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">two</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">three</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">four</a>
+            </li>
+        </ul>
+
+        <hr class="my-5"/>
+        
+        <p class="display-3">Nav Pills</p>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">one</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">two</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">three</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">four</a>
+            </li>
+        </ul>
+
+        <hr class="my-5"/>
+
+        <p class="display-3">Justified Nav Pills</p>
+        <ul class="nav nav-pills nav-justified">
+            <li class="nav-item">
+                <a class="nav-link active bg-success" href="#">one</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">two</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">three</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">four</a>
+            </li>
+        </ul>
+
+        <hr class="my-5"/>
+
+        <p class="display-3">Nav Pills with Dropdown</p>
+        <ul class="nav nav-pills nav-justified">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">one</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">two</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">three</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">four</a>
+            </li>
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">drop 1</a>
+                <a class="dropdown-item" href="#">drop 2</a>
+                <a class="dropdown-item" href="#">drop 3</a>
+                <a class="dropdown-item" href="#">drop 4</a>
+            </div>
+        </ul>
+
+    </main>
+    
+     <!-- To gain full functionality from Bootstrap 4, it requires three JS libraries: jQuery, Popper, and the Bootstrap4 library -->
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ 
+     <!-- If you're adding you're own javascript, link to it AFTER your jQuery/Popper/Bootstrap links -->
+</body>
+</html>
